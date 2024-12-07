@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones - Fundación STEM Honduras</title>
+    <link rel="stylesheet" href="../cssStyles/donaciones.css">
+    <link rel="stylesheet" href="../cssStyles/first.css">
+</head>
+<body>
+    <header>
+        <h1>Honduras STEM Foundation</h1>
+       
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="../html_pages/index.html"><img src="../images/icons/home.PNG" alt="home">Página de Inicio</a></li>
+                <li><a href="../html_pages/about.html"><img src="../images/icons/about.PNG" alt="about">Acerca de Nosotros</a></li>
+                <li><a href="../html_pages/programs.html"><img src="../images/icons/programs.PNG" alt="programs">Nuestros Programas</a></li>
+                <li><a href="../html_pages/help.html"><img src="../images/icons/help.PNG" alt="help">Cómo Ayudar</a></li>
+                <li><a href="../html_pages/gallery.html"><img src="../images/icons/gallery.PNG" alt="gallery">Galería de Fotos</a></li>
+                <li><a href="../html_pages/bloq.html"><img src="../images/icons/blog.PNG" alt="blog">Blog</a></li>
+                <li><a href="../html_pages/events.html"><img src="../images/icons/calendar.PNG" alt="events">Eventos</a></li>
+                <li><a href="../html_pages/contact.html"><img src="../images/icons/cellphone.PNG" alt="contact">Contáctenos</a></li>
+                <li><a href="../html_pages/donation.html"><img src="../images/icons/donation.PNG" alt="donation">Página de Donaciones</a></li>
+                <li><a href="../html_pages/questions.html"><img src="../images/icons/question.PNG" alt="question">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+
+    <section class="donation">
+        <h2>Haz tu Donación</h2>
+        <div class="donation-image-container">
+            <img src="../images/Donaciones/donaciones.jpg" alt="Imagen de Donaciones" class="donation-image">
+        </div>
+        <p>Tu apoyo es fundamental para seguir impulsando la educación en STEM.</p>
+    </section>
+    
+    
+
+    <main>
+        <section class="donation-info">
+            <h2>Apóyanos</h2>
+            <p>¿Cómo colaborar con Honduras STEM Foundation en sus proyectos?</p>
+            <p>Honduras STEM Foundation tiene como primera misión promover programas y competencias que inculquen, alienten e inspiren en los jóvenes de Honduras el entusiasmo por el aprendizaje de las áreas de ciencia, tecnología, ingeniería y matemáticas de manera integral. Empoderamos a los jóvenes para despertar en ellos el interés por estudiar carreras orientadas a la ciencia y la tecnología, desarrollando conocimientos y habilidades que contribuyan al crecimiento tecnológico y económico del país, y al bien común.</p>
+            <p>En 2017, Honduras STEM Foundation impulsó por primera vez la robótica en Honduras a través del programa World Robot Olympiad ®, promoviendo la robótica como método educativo para desarrollar habilidades STEM.</p>
+            <h3>Información de Donativos</h3>
+            <p>Si deseas apoyarnos, puedes hacerlo de las siguientes maneras:</p>
+            <p><strong>En las cuentas de Honduras STEM Foundation en BAC:</strong></p>
+            <ul>
+                <li><strong>Lempiras:</strong> #730338081</li>
+                <li><strong>USD:</strong> #729445581</li>
+            </ul>
+        </section>
+
+        <section class="donation-form">
+            <h2>Formulario de Donación</h2>
+            <form id="donationForm">
+                <label for="donorName">Nombre:</label>
+                <input type="text" id="donorName" name="donorName" required>
+
+                <label for="donorEmail">Correo Electrónico:</label>
+                <input type="email" id="donorEmail" name="donorEmail" required>
+
+                <label for="donationAmount">Monto de Donación (en Lempiras o USD):</label>
+                <input type="text" id="donationAmount" name="donationAmount" required>
+
+                <label for="message">Mensaje (opcional):</label>
+                <textarea id="message" name="message" rows="3"></textarea>
+
+                <button type="submit">Hacer Donación</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Col. Miraflores, Final Bulevar Santa Cristina, Edificio HCT</p>
+        <p>Tegucigalpa, Honduras</p>
+        <p>PBX: +504 2240-3500</p>
+    </footer>
+
+    <script src="../jsScripts/donaciones.js"></script>
+</body>
+</html>

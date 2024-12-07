@@ -1,0 +1,79 @@
+.quienes-somos {
+    margin: 20px auto;
+    text-align: left;
+    background-color: #f0f8ff;
+    border: 2px solid #007BFF; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quienes-somos h2 {
+    font-size: 24px;
+    color: #004A8F;
+    margin-bottom: 15px;
+}
+
+.quienes-somos .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.quienes-somos-video {
+    flex: 1;
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quienes-somos p {
+    flex: 2;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+.mision, .vision, .objetivos {
+    margin: 20px auto;
+    background-color: #e8f4ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.mision h2, .vision h2, .objetivos h2 {
+    font-size: 22px;
+    color: #004A8F;
+    margin-bottom: 10px;
+}
+
+.mision p, .vision p, .objetivos ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.objetivos ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+@media (max-width: 768px) {
+    .quienes-somos .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quienes-somos-video {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
